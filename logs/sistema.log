@@ -1,0 +1,41 @@
+[2026-11-20 23:16:02] [INFO] Sistema iniciado correctamente.
+[2026-11-20 23:16:02] [ERROR] Prueba de error controlado.
+[2026-11-20 23:16:02] [ERROR] ClienteInvalidoError: Documento del cliente vacío.
+[2026-11-20 23:16:02] [INFO] Sistema iniciado correctamente.
+[2026-11-20 23:16:02] [ERROR] Prueba de error controlado.
+[2026-11-20 23:16:02] [ERROR] ClienteInvalidoError: Documento del cliente vacío.
+[2026-11-20 23:19:21] [INFO] Sistema iniciado correctamente.
+[2026-11-20 23:19:21] [ERROR] Prueba de error controlado.
+[2026-11-20 23:19:21] [ERROR] ClienteInvalidoError: Documento del cliente vacío.
+[2026-11-20 23:19:21] [INFO] Cliente creado: Cliente [C001]: Juan Perez (Doc: 12345678) - Email: juan@email.com
+[2026-11-20 23:19:21] [ERROR] Error creando cliente: El email 'maria-correo-malo' no es válido.
+[2026-11-20 23:19:21] [ERROR] Error creando cliente: El documento debe ser numérico.
+[2026-11-20 23:21:09] [INFO] Sistema iniciado correctamente.
+[2026-11-20 23:21:09] [ERROR] Prueba de error controlado.
+[2026-11-20 23:21:09] [ERROR] ClienteInvalidoError: Documento del cliente vacío.
+[2026-11-20 23:21:09] [INFO] Cálculo exitoso para Sala Magna: $196350.0
+[2026-11-20 23:21:09] [ERROR] Error en cálculo de servicio: La duración de la reserva debe ser mayor a cero.
+[2026-11-20 23:21:09] [ERROR] Error en servicio: El servicio 'Laptop Gamer' no está disponible.
+[2026-11-20 23:22:41] [INFO] Sistema iniciado correctamente.
+[2026-11-20 23:22:41] [ERROR] Prueba de error controlado.
+[2026-11-20 23:22:41] [ERROR] ClienteInvalidoError: Documento del cliente vacío.
+[2026-11-20 23:22:41] [INFO] Reserva creada en estado PENDIENTE: Juan Perez - Sala Magna
+[2026-11-20 23:22:41] [INFO] Reserva CONFIRMADA para Juan Perez. Costo: $196350.0
+[2026-11-20 23:22:41] [ERROR] Error al procesar reserva: La reserva ya fue confirmada previamente.
+[2026-11-20 23:22:41] [INFO] Reserva creada en estado PENDIENTE: Maria - Proyector
+[2026-11-20 23:22:41] [INFO] Reserva CANCELADA para Maria.
+[2026-11-20 23:22:41] [ERROR] Error al procesar reserva: No se puede procesar una reserva cancelada.
+[2026-11-20 23:26:04] [INFO] Sistema iniciado correctamente.
+[2026-11-20 23:26:04] [ERROR] Prueba de error controlado.
+[2026-11-20 23:26:04] [ERROR] ClienteInvalidoError: Documento del cliente vacío.
+[2026-11-20 23:26:04] [INFO] --- INICIO DE LA SIMULACIÓN GLOBAL ---
+[2026-11-20 23:26:04] [INFO] Reserva creada en estado PENDIENTE: Didier Martinez - Sala de Juntas A
+[2026-11-20 23:26:04] [INFO] Reserva CONFIRMADA para Didier Martinez. Costo: $214200.0
+[2026-11-20 23:26:04] [INFO] Reserva creada en estado PENDIENTE: Didier Martinez - Asesoría en Redes
+[2026-11-20 23:26:04] [ERROR] Error inesperado procesando reserva: El servicio 'Asesoría en Redes' no está disponible.
+[2026-11-20 23:26:04] [INFO] Reserva creada en estado PENDIENTE: Carlos Ruiz - Sala Creativa
+[2026-11-20 23:26:04] [INFO] Reserva CANCELADA para Carlos Ruiz.
+[2026-11-20 23:26:05] [ERROR] Error al procesar reserva: No se puede procesar una reserva cancelada.
+[2026-11-20 23:26:05] [INFO] Reserva creada en estado PENDIENTE: Sofia Lopez - Asesoría en IA
+[2026-11-20 23:26:05] [INFO] Reserva CONFIRMADA para Sofia Lopez. Costo: $364140.0
+[2026-11-20 23:26:05] [INFO] --- FIN DE LA SIMULACIÓN GLOBAL ---
